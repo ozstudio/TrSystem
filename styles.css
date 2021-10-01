@@ -1,0 +1,256 @@
+﻿@font-face {
+    font-family: 'Rubik-Regular';
+    src: url('Rubik/Rubik-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Rubik-Bold';
+    src: url('Rubik/Rubik-Bold.ttf') format('truetype');
+}
+@keyframes MenuSizeAnim {
+    0%    {transform: scale(0);}
+    100%  {transform: scale(1);}
+    
+  }
+
+
+
+body {
+    background-color:#1f1f1f;
+    
+}
+.about{
+    font-family:Rubik-Regular;
+    line-height:30px;
+    font-size:20px;
+    font-style:normal;
+    color:white;
+    padding-top:32px;
+    padding-bottom:32px;
+}
+.trSystem{
+     font-family:Rubik-Bold;
+    line-height:18px;
+    font-size:15px;
+    
+
+}
+.topContainer{
+    padding-right:0px;
+    padding-left:0px;
+}
+.navbar-default {
+    background-color: black;
+    background-image: url('images/bg.jpg');
+    background-position:-386px -600px;
+}
+.fa{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.fa.menuIcon{
+    border-radius: 5px;
+    background-color:#fe6c00;
+    font-size: 25px;
+    padding: 8px;
+    display: none;
+}
+.servicesBtn{
+    margin-top: 15px;
+}
+.act{
+    background-color:#fe6c00;
+}
+li:hover{
+    background-color:#fe6c00;
+}
+.lastWorks h3{
+    font-family:Rubik-Regular;
+    line-height:31px;
+    font-size:26px;
+    float:right;
+    direction:rtl;
+}
+.navbar{
+    border:0px;
+    border-radius:0px;
+    margin-bottom:0px;
+    height:102px;
+    border-bottom:2px solid #fe6c00;
+}
+.navbar-brand{
+    font-size:40px;
+    margin-top: -6px;
+}
+.mainMenu{
+    z-index:10000;
+    padding-top:38px;
+}
+.navbar-nav
+{
+         z-index: 10000;
+         float: right;
+         border-radius: 0px;
+}
+.navbar-nav a{
+    font-family:Rubik-Regular;
+    font-size:16px;
+    color:white !important;
+
+}
+.bottomBorder{
+    
+    margin-bottom: 80px;
+    margin-top: 80px;
+
+}
+.lastWorks{
+    border-bottom: 1px solid #fe6c00;
+    padding-bottom: 18px;
+}
+.col-centered{
+    margin-right: 20px;
+
+}
+
+@media only screen and (max-width:990px) {
+    .nav li a{
+        padding: 10px 13px !important;
+    }
+    .img-responsive{
+        padding-bottom: 40px;
+        padding-top: 20px;
+
+        max-width: 70% !important;
+        margin: 0 auto;
+    }
+   
+    .lastWorks h3
+    {
+        color: white !important;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .col-centered{
+        max-width: 270px;
+        margin-right: 0px;
+
+    }
+
+}
+
+@media only screen and (max-width:770px) {
+    
+    .img-responsive{
+      padding: 0px;
+      max-width: 80% !important;
+      margin:0 auto;
+      padding-bottom: 40px;
+      padding-top: 20px;
+  }
+  .col-centered{
+    max-width: 80%;
+    margin-right: 0px;
+   
+
+}
+.fa.menuIcon{
+    margin-top: -47px;
+    float: right;
+    display: block;
+    cursor: pointer;
+}
+.navbar-nav{
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 100vh;
+    display: none;
+    text-align: center;
+    background-color: black;
+    animation-name:  MenuSizeAnim;
+    animation-duration: .5s;
+}
+ 
+  }
+
+               
+.services{
+    direction:rtl;
+    background-color:#1d1d1d;
+    padding-top:25px;
+    padding-bottom:15px;
+  
+}
+.servicesBtn{
+    color: black;
+    padding: 7px;
+    background-color:#fd6b00;
+    border: none;
+}
+
+
+.services h2{
+    font-family:Rubik-Bold;
+}
+.services p{
+    font-family:Rubik-Regular;
+}
+.services button{
+    float:left;
+    background-color:#fd6b00;
+    border:none;
+   border-radius:0px;
+}
+
+  
+
+                /* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+.col-centered h2{
+     text-align:center;
+    direction:rtl;
+
+}
+.col-centered i{
+    font-size:55px;
+    color:#fc6a04;
+
+}
+.col-centered p{
+    font-size: 22px;
+     text-align:center;
+     direction:rtl;
+}
+
+.col-centered {
+    display:inline-block;
+    float:none;
+   
+    /* inline-block space fix */
+  
+    background-color:black;
+    color:white;
+    padding-left:30px;
+    padding-right:30px;
+   /*margin-right:20px;*/ 
+    padding-bottom:19px;
+    margin-bottom: 30px;
+}
+.content{
+    background-color:#1f1f1f;
+    color:white;
+    direction:rtl;
+    font-family:Rubik-Regular;
+    min-height:450px;
+    font-size:16px;
+}
+.content h2{
+    font-family:Rubik-Bold;
+}
+
